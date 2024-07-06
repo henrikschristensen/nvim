@@ -11,8 +11,10 @@ return {
   require 'custom.plugins.copilotchat',
   require 'custom.plugins.omnisharp',
   require 'custom.plugins.neotest',
-  --  require 'custom.plugins.csharp',
-  require 'custom.plugins.ale',
+  require 'custom.plugins.vimspector',
+  require 'custom.plugins.diffview',
+  -- require 'custom.plugins.csharp',
+  -- require 'custom.plugins.ale',
   require 'custom.plugins.gitgutter',
   require 'custom.plugins.barbar',
   require 'custom.plugins.vscode',
@@ -23,4 +25,5 @@ return {
   require 'custom.plugins.alloy',
   require 'custom.plugins.nui',
   require 'custom.plugins.markdownpreview',
+  require 'custom.plugins.powershell',
 }
