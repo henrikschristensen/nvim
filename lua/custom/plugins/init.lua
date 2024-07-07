@@ -26,4 +26,6 @@ return {
   require 'custom.plugins.nui',
   require 'custom.plugins.markdownpreview',
   require 'custom.plugins.powershell',
+  require 'custom.plugins.dadbod',
+  require 'custom.plugins.dadbodui',
 }
